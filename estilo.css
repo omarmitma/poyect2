@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body main {
+  text-align: center;
+  padding: 20px;
+  background-color: #e2d7d7;
+}
+
+body main #title {
+  margin: 60px 0;
+}
+
+body main #title h1 {
+  font-size: 40px;
+}
+
+body main #title p {
+  margin-top: 15px;
+  color: #666;
+}
+
+body main form {
+  background-color: rgba(27, 27, 50, 0.8);
+  text-align: left;
+  padding: 40px;
+}
+
+body main form .form-group {
+  margin-top: 35px;
+}
+
+body main form .form-group label, body main form .form-group p {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+body main form .form-group input, body main form .form-group select {
+  margin: 15px 0;
+  width: 100%;
+  padding: 12px 18px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+}
+
+body main form .form-group input option:nth-child(1), body main form .form-group select option:nth-child(1) {
+  color: #888;
+}
+
+body main form .form-group textarea {
+  width: 100%;
+  border-radius: 10px;
+  padding: 15px;
+  outline: none;
+}
+
+body main form .form-group input[type=submit] {
+  background-color: #1a5e1a;
+  color: #fff;
+  cursor: pointer;
+}
+
+body main form .radio label, body main form .check label {
+  display: block;
+  text-align: left;
+  font-size: 20px;
+  color: #ccc;
+}
+
+body main form .radio label input, body main form .check label input {
+  width: auto;
+}
+/*# sourceMappingURL=estilo.css.map */
